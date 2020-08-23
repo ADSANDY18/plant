@@ -1,5 +1,5 @@
 
-var accessToken = "1e58b9d46eb4ff5ab8125aa6309ef1796d085f4c"                         //"1e58b9d46eb4ff5ab8125aa6309ef1796d085f4c" //"e0b8ba1f24ab4c6699e19909835422cf";
+var accessToken = "057971406c9828d89d628f863bfb649dc70ed6f0"                         //"1e58b9d46eb4ff5ab8125aa6309ef1796d085f4c" //"e0b8ba1f24ab4c6699e19909835422cf";
     var baseUrl = "https://api.dialogflow.com/v1/";
     $(document).ready(function() {
       $("#input").keypress(function(event) {
