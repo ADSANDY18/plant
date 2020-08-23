@@ -1,6 +1,6 @@
 
 var accessToken = "0482ef822f6fd21b29dc8855aa94faaa5d7eafa5";                      //"1e58b9d46eb4ff5ab8125aa6309ef1796d085f4c" //"e0b8ba1f24ab4c6699e19909835422cf";
-    var baseUrl = "https://api.dialogflow.com/v1/";
+    var baseUrl = "https://api.dialogflow.com/v2/";
     $(document).ready(function() {
       $("#input").keypress(function(event) {
         if (event.which == 13) {
