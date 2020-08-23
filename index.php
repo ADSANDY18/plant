@@ -52,7 +52,7 @@
 
     </style>
 
-    <title>iVAC</title>
+    <title>plant</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
