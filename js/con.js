@@ -1,6 +1,6 @@
 
-var accessToken = "1e58b9d46eb4ff5ab8125aa6309ef1796d085f4c";   //1e58b9d46eb4ff5ab8125aa6309ef1796d085f4c                   //"1e58b9d46eb4ff5ab8125aa6309ef1796d085f4c" //"e0b8ba1f24ab4c6699e19909835422cf";
-    var baseUrl = "https://api.dialogflow.com/v1/";
+          accessToken="chatbot.json",
+          baseUrl = "https://dialogflow.googleapis.com/v2/projects/OurChatBotID/agent/sessions/OurChatbotSessionID:detectIntent",
     $(document).ready(function() {
       $("#input").keypress(function(event) {
         if (event.which == 13) {
@@ -164,6 +164,12 @@ var accessToken = "1e58b9d46eb4ff5ab8125aa6309ef1796d085f4c";   //1e58b9d46eb4ff
           "Authorization": "Bearer " + accessToken
      //     console.log("++Authorization_Done"); 
         },
+          
+         
+          
+          
+          
+          
         data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
         success: function(data) 
                 {
