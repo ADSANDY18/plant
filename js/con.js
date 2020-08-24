@@ -154,15 +154,15 @@
            
         type: "POST",
            //20150910
-        url: baseUrl + "query?v=20150910",
-      //  console.log("++lineAfter_baseUrl");  
+        url: baseUrl + "query",
+       console.log("++lineAfter_baseUrl");  
         contentType: "application/json; charset=utf-8",
         dataType: "json",
-     //   console.log("++lineBefore_headers");  
+       console.log("++lineBefore_headers");  
         headers: {
-      //    console.log("++lineBefore_Authorization"); 
+         console.log("++lineBefore_Authorization"); 
           "Authorization": "Bearer " + accessToken
-     //     console.log("++Authorization_Done"); 
+         console.log("++Authorization_Done"); 
         },
           
          
